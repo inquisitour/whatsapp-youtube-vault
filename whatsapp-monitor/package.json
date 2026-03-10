@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-youtube-monitor",
+  "version": "1.0.0",
+  "description": "WhatsApp group monitor that extracts YouTube links to JSONL",
+  "main": "src/monitor.js",
+  "scripts": {
+    "start": "node src/monitor.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.26.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

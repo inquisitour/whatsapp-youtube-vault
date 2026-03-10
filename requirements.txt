@@ -1,0 +1,8 @@
+pydantic>=2.10,<3
+anthropic>=0.45
+yt-dlp
+youtube-transcript-api>=1.0
+watchdog
+python-dotenv
+rich
+pytest

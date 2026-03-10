@@ -1,0 +1,30 @@
+# Node
+node_modules/
+whatsapp-monitor/.wwebjs_auth/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Project generated
+vault/
+data/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
