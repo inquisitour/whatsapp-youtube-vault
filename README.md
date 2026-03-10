@@ -214,8 +214,6 @@ pytest tests/ -v
 
 All external APIs (YouTube, Anthropic) are mocked in tests.
 
----
-
 ## How It Works
 
 1. **WhatsApp Monitor** (`monitor.js`) listens for messages in the three target groups via `whatsapp-web.js`.
@@ -228,4 +226,5 @@ All external APIs (YouTube, Anthropic) are mocked in tests.
    - **Transcript** — `youtube-transcript-api` fetches the video transcript.
    - **Summarization** — Claude API generates a structured summary (overview, key points, takeaways, category, tags).
    - **Storage** — The result is stored in both SQLite (with FTS5 full-text search) and as a Markdown file in the `vault/` directory.
-```
+
+---
