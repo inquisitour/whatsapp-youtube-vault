@@ -15,6 +15,7 @@ venv/
 # Project generated
 vault/
 data/
+.wwebjs_cache
 
 # Environment
 .env
